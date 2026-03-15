@@ -36,25 +36,25 @@
 
 <RequireAny>
 
-&#x09;#サーチBOT許可等
+    #サーチBOT許可等
 
-&#x09;<RequireAll>
+    <RequireAll>
 
-&#x09;	#ベーシック認証つける用
+    	#ベーシック認証つける用
 
-&#x09;	<RequireAll>
+    	<RequireAll>
 
-&#x09;		<RequireAny>
+    		<RequireAny>
 
-&#x09;			#日本国内で使われるIPアドレスを許可
+    			#日本国内で使われるIPアドレスを許可
 
-&#x09;		</RequireAny>
+    		</RequireAny>
 
-&#x09;		#日本国内にあるVPNのサーバーのIPアドレスを拒否
+    		#日本国内にあるVPNのサーバーのIPアドレスを拒否
 
-&#x09;	</RequireAll>
+    	</RequireAll>
 
-&#x09;</RequireAll>
+    </RequireAll>
 
 </RequireAny>
 
@@ -136,15 +136,15 @@
 
 <RequireAny>
 
-&#x09;Require ip 1.0.16.0/20
+    Require ip 1.0.16.0/20
 
-&#x09;Require ip 1.0.64.0/18
+    Require ip 1.0.64.0/18
 
-&#x09;…
+    …
 
-&#x09;Require ip 223.252.64.0/19
+    Require ip 223.252.64.0/19
 
-&#x09;Require ip 223.252.112.0/20
+    Require ip 223.252.112.0/20
 
 </RequireAny>
 
