@@ -6,14 +6,14 @@
 
 
 
-\----
+----
 
 
 
 #### 1\.使い方
 
 
-
+※haccessになってるけどファイル名の前にカンマ(.)付けてね
 `.haccess`と`update\_htaccess.php`をドキュメントルートにおいて、Cronで`update\_htaccess.php`を15～45分おき位に叩く、それだけ。
 
 
